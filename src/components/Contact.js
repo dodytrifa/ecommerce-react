@@ -10,11 +10,15 @@ const Contact = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut molestias dolorem tempore distinctio fugit, corporis atque velit quidem doloremque fuga, maxime obcaecati repellendus laboriosam autem assumenda nemo veritatis ipsam impedit.
           </p>
-          <form className="contact-form">
+          <form 
+          className="contact-form" 
+          action="https://formspree.io/f/xyylwezy"
+          method="POST">
             <input 
               type="email" 
               className='form-input'
               placeholder='enter email'
+              name="_replyto"
             />
             <button type='submit' className='submit-btn'>subscribe</button>
           </form>
